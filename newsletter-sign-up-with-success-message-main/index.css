@@ -1,0 +1,183 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgba(39, 39, 50, 0.93);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 330px;
+    width: fit-content;
+    padding: 20px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    width: 375px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.cont h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.cont ul{
+   list-style-image: url(assets/images/icon-list.svg);
+   line-height: 40px;
+   font-weight: 500;
+}
+.mail{
+    font-weight: 600;
+}
+
+input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgba(218, 116, 32, 0.556);
+    transition: 0.6s;
+}
+.attribution{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.attribution a{
+    color: white;
+    text-decoration: underline;
+}
+
+.success {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .success-content {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  
+  .success h2 {
+    font-size: 24px;
+  }
+  
+  .success p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .success button {
+    background-color: rgb(46, 46, 90);
+    color: white;
+    text-decoration: none;
+    border-style: dotted;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .success button:hover {
+    background-color: #f1763d;
+    color: white;
+  }
+  .success button a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@media (max-width: 992px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        top: 50%;
+    }
+    .cont{
+        padding: 10px;
+        margin: 0;
+    }
+    .img{
+        width: auto;
+        padding: 10px;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+@media (max-width : 600px) {
+    .main{
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .cont{
+        padding: 10px;
+        margin: 0;
+    }
+    .img{
+        width: auto;
+        padding: 0;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
